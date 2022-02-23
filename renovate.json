@@ -10,5 +10,8 @@
   },
   "patch": {
     "addLabels": ["automerge"]
+  },
+  "rust":{
+    "addLabels": ["rust"]
   }
 }
