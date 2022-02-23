@@ -2,5 +2,13 @@
   "extends": [
     "config:base"
   ],
-  "addLabels": ["automerge", "dependencies"]
+  "prHourlyLimit": 0,
+  "prConcurrentLimit": 1,
+  "addLabels": ["dependencies"],
+  "minor": {
+    "addLabels": ["automerge"]
+  },
+  "patch": {
+    "addLabels": ["automerge"]
+  }
 }
