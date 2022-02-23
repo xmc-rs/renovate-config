@@ -13,5 +13,8 @@
   },
   "rust":{
     "addLabels": ["rust"]
+  },
+  "github-actions": {
+    "addLabels": ["github_actions"]
   }
 }
