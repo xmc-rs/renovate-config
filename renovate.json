@@ -3,6 +3,7 @@
     "config:base"
   ],
   "prHourlyLimit": 0,
+  "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
   "minor": {
     "addLabels": ["automerge"]
