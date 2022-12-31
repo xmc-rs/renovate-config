@@ -21,7 +21,8 @@
     "addLabels": ["github_actions"]
   },
   "npm":{
-    "addLabels": ["npm"]
+    "addLabels": ["npm"],
+    "rangeStrategy": "pin"
   },
   "includeForks": true
 }
