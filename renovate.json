@@ -3,6 +3,8 @@
   "extends": [
     "config:base"
   ],
+  "dependencyDashboard": true,
+  "dependencyDashboardAutoclose": false,
   "prHourlyLimit": 0,
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
