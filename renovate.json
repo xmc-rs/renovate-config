@@ -16,5 +16,6 @@
   },
   "github-actions": {
     "addLabels": ["github_actions"]
-  }
+  },
+  "includeForks": true
 }
