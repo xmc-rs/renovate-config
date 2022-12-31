@@ -18,5 +18,8 @@
   "github-actions": {
     "addLabels": ["github_actions"]
   },
+  "npm":{
+    "addLabels": ["npm"]
+  }
   "includeForks": true
 }
