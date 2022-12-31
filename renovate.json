@@ -3,16 +3,19 @@
   "extends": [
     "config:base"
   ],
+  "platformAutomerge": true,
   "dependencyDashboard": true,
   "dependencyDashboardAutoclose": false,
   "prHourlyLimit": 0,
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
   "minor": {
-    "addLabels": ["automerge"]
+    "addLabels": ["automerge"],
+    "automerge": true
   },
   "patch": {
-    "addLabels": ["automerge"]
+    "addLabels": ["automerge"],
+    "automerge": true,
   },
   "rust":{
     "addLabels": ["rust"]
