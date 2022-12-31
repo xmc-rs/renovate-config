@@ -20,6 +20,6 @@
   },
   "npm":{
     "addLabels": ["npm"]
-  }
+  },
   "includeForks": true
 }
