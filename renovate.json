@@ -6,6 +6,7 @@
   "dependencyDashboard": true,
   "dependencyDashboardAutoclose": false,
   "prHourlyLimit": 0,
+  "prConcurrentLimit": 1,
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
   "minor": {
@@ -27,8 +28,7 @@
   },
   "npm":{
     "addLabels": ["npm"],
-    "rangeStrategy": "pin",
-    "prConcurrentLimit": 1
+    "rangeStrategy": "pin"
   },
   "includeForks": true
 }
