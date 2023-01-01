@@ -27,6 +27,7 @@
   "npm":{
     "addLabels": ["npm"],
     "rangeStrategy": "pin"
+    "prConcurrentLimit": 1
   },
   "includeForks": true
 }
