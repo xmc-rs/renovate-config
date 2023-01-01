@@ -27,5 +27,13 @@
     "addLabels": ["npm"],
     "rangeStrategy": "pin"
   },
+  "packageRules": [
+    {
+      "matchDepTypes": ["dev-dependencies"],
+      "platformAutomerge": true,
+      "automerge": true,
+      "matchUpdateTypes": ["major"]
+    }
+  ]
   "includeForks": true
 }
