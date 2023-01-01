@@ -9,14 +9,6 @@
   "prConcurrentLimit": 1,
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
-  "minor": {
-    "platformAutomerge": true,
-    "automerge": true
-  },
-  "patch": {
-    "platformAutomerge": true,
-    "automerge": true,
-  },
   "rust":{
     "addLabels": ["rust"],
   },
@@ -33,6 +25,12 @@
       "platformAutomerge": true,
       "automerge": true,
       "matchUpdateTypes": ["major", "minor", "patch"]
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "platformAutomerge": true,
+      "automerge": true,
+      "matchUpdateTypes": ["minor", "patch"]
     }
   ],
   "includeForks": true
