@@ -15,14 +15,15 @@
   },
   "patch": {
     "addLabels": ["automerge"],
-    "platformAutomerge": true,
     "automerge": true,
   },
   "rust":{
-    "addLabels": ["rust"]
+    "addLabels": ["rust"],
+    "platformAutomerge": true
   },
   "github-actions": {
-    "addLabels": ["github_actions"]
+    "addLabels": ["github_actions"],
+    "platformAutomerge": true
   },
   "npm":{
     "addLabels": ["npm"],
