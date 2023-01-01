@@ -10,21 +10,18 @@
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
   "minor": {
-    "addLabels": ["automerge"],
     "platformAutomerge": true,
     "automerge": true
   },
   "patch": {
-    "addLabels": ["automerge"],
+    "platformAutomerge": true,
     "automerge": true,
   },
   "rust":{
     "addLabels": ["rust"],
-    "platformAutomerge": true
   },
   "github-actions": {
     "addLabels": ["github_actions"],
-    "platformAutomerge": true
   },
   "npm":{
     "addLabels": ["npm"],
