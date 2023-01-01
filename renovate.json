@@ -29,7 +29,7 @@
   },
   "packageRules": [
     {
-      "matchDepTypes": ["dev-dependencies"],
+      "matchDepTypes": ["devDependencies"],
       "platformAutomerge": true,
       "automerge": true,
       "matchUpdateTypes": ["major"]
