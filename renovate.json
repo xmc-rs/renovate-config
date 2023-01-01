@@ -32,7 +32,7 @@
       "matchDepTypes": ["devDependencies"],
       "platformAutomerge": true,
       "automerge": true,
-      "matchUpdateTypes": ["major"]
+      "matchUpdateTypes": ["major", "minor", "patch"]
     }
   ],
   "includeForks": true
