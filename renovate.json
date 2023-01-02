@@ -39,7 +39,8 @@
   ],
   "vulnerabilityAlerts": {
     "automerge": true,
-    "platformAutomerge": true
+    "platformAutomerge": true,
+    "prConcurrentLimit": 1
   },
   "includeForks": true
 }
