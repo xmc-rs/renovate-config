@@ -3,6 +3,7 @@
   "extends": [
     "config:base"
   ],
+  "gitIgnoredAuthors": ["49736102+kodiakhq[bot]@users.noreply.github.com"],
   "dependencyDashboard": true,
   "dependencyDashboardAutoclose": false,
   "prHourlyLimit": 0,
