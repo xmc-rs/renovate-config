@@ -16,6 +16,8 @@
   },
   "github-actions": {
     "addLabels": ["github_actions"],
+    "automerge": true,
+    "platformAutomerge": true
   },
   "npm":{
     "addLabels": ["npm"],
