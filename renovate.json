@@ -27,7 +27,8 @@
     {
       "matchDepTypes": ["devDependencies"],
       "platformAutomerge": true,
-      "automerge": true
+      "automerge": true,
+      "matchUpdateTypes": ["major", "minor", "patch", "pin"]
     },
     {
       "matchDepTypes": ["dependencies"],
