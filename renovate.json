@@ -33,7 +33,7 @@
       "matchDepTypes": ["dependencies"],
       "platformAutomerge": true,
       "automerge": true,
-      "matchUpdateTypes": ["minor", "patch"]
+      "matchUpdateTypes": ["minor", "patch", "pin"]
     }
   ],
   "vulnerabilityAlerts": {
