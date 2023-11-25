@@ -13,7 +13,7 @@
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
   "rust":{
-    "addLabels": ["rust"],
+    "addLabels": ["rust"]
   },
   "github-actions": {
     "addLabels": ["github_actions"],
