@@ -12,15 +12,15 @@
   "semanticCommits": "enabled",
   "addLabels": ["dependencies"],
   "rust":{
-    "addLabels": ["rust"]
+    "addLabels": ["rust", "automerge"]
   },
   "github-actions": {
-    "addLabels": ["github_actions"],
+    "addLabels": ["github_actions", "automerge"],
     "automerge": true,
     "platformAutomerge": true
   },
   "npm":{
-    "addLabels": ["npm"],
+    "addLabels": ["npm", "automerge"],
     "rangeStrategy": "pin"
   },
   "packageRules": [
