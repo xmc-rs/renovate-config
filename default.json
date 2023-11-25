@@ -7,7 +7,6 @@
   "dependencyDashboard": true,
   "dependencyDashboardAutoclose": false,
   "prHourlyLimit": 0,
-  "prConcurrentLimit": 1,
   "separateMajorMinor": true,
   "separateMinorPatch": true,
   "semanticCommits": "enabled",
